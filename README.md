@@ -1,64 +1,66 @@
-<p align="center">
-<img src="https://github.com/yankailab/OpenKAI/raw/master/data/OK.png" width=300px alt="OpenKAI">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/yankailab/OpenKAI/raw/master/data/OK.png"><img src="https://github.com/yankailab/OpenKAI/raw/master/data/OK.png" width="300px" alt="开放凯" style="max-width: 100%;"></a>
 </p>
-
-## OpenKAI: A modern framework for unmanned vehicle and robot control
-OpenKAI (Kinetic AI) is an open-source framework that realize rapid development of unmanned vehicles and robots that incorporate AI, sensors, actuators, etc.. OpenKAI is light weight to run on embedded hardwares. A simple and unified multi-threading modular architecture written purely in C++ makes it highly customizable for versatile applications and easily expanded to support new devices.
-
-We are keep adding supports for sensors and actuators available on market from hackable modules to industry solutions. The supported devices can be used easily as an abstracted object in OpenKAI. We welcome contributions from vendors to provide evaluation device, as well as coders from open-source community.
-
-## Platforms
-Tested but not limited to
-* x86 PC (Ubuntu 20.04 LTS)
-* NVIDIA Jetson series (JetPack/Ubuntu)
-* Raspberry Pi (Raspberry Pi OS)
-
-## Dependencies
-* Mandatory: Pthread, Google glog, Eigen.
-* Optional: OpenCV, Open3D, OpenCL, etc..
-
-## Interfaces
-* UART
-* USB Serial
-* CAN (incl. USB <-> CAN converter)
-* RS-485 (USB <-> RS-485 converter)
-* LAN/Wifi
-
-## Protocols
-* Mavlink 2
-* Modbus
-* TCP/UDP
-* WebSocket
-* JSON
-
-## External controllers
-* Pixhawk and its compatibles (Mavlink/UART)
-* Oriental Motor (Modbus/RS-485)
-* ZLAC 8015 (Modbus/RS-485)
-
-and more are coming.
-
-## Sensors
-* Intel Realsense D400 series, L515, T265.
-* LeddarTech LeddarVu (UART/USB)
-* TOFsense
-* Raspberry Camera module
-* Hiphen Airphen
-* Canon SLR
-* Sony RX0 series
-* Livox
-
-and more are coming.
-
-## Actuators
-* Oriental Motor
-* DRV8825 (RS485)
-
-and more are coming.
-
-## Displays
-* Mutrics ARiC AR glasses (Coming soon)
-
-## Showcase of Solutions
-
-Updating...
+<h2 tabindex="-1" dir="auto"><a id="user-content-openkai-a-modern-framework-for-unmanned-vehicle-and-robot-control" class="anchor" aria-hidden="true" tabindex="-1" href="#openkai-a-modern-framework-for-unmanned-vehicle-and-robot-control"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenKAI：无人驾驶车辆和机器人控制的现代框架</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenKAI（Kinetic AI）是一个开源框架，可实现集成人工智能、传感器、执行器等的无人驾驶车辆和机器人的快速开发。OpenKAI重量轻，可以在嵌入式硬件上运行。</font><font style="vertical-align: inherit;">纯粹用 C++ 编写的简单且统一的多线程模块化架构使其能够针对多功能应用程序进行高度定制，并轻松扩展以支持新设备。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们不断增加对市场上可用的传感器和执行器的支持，从可破解模块到行业解决方案。</font><font style="vertical-align: inherit;">支持的设备可以作为 OpenKAI 中的抽象对象轻松使用。</font><font style="vertical-align: inherit;">我们欢迎提供评估设备的供应商以及来自开源社区的编码人员的贡献。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-platforms" class="anchor" aria-hidden="true" tabindex="-1" href="#platforms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">平台</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已测试但不限于</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">x86 电脑（Ubuntu 20.04 LTS）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NVIDIA Jetson 系列 (JetPack/Ubuntu)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">树莓派（树莓派操作系统）</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-dependencies" class="anchor" aria-hidden="true" tabindex="-1" href="#dependencies"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依赖关系</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">强制：Pthread、Google glog、Eigen。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可选：OpenCV、Open3D、OpenCL 等。</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-interfaces" class="anchor" aria-hidden="true" tabindex="-1" href="#interfaces"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接口</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">串口</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">USB串口</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CAN（包括 USB &lt;-&gt; CAN 转换器）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RS-485（USB &lt;-&gt; RS-485 转换器）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">局域网/无线网络</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-protocols" class="anchor" aria-hidden="true" tabindex="-1" href="#protocols"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">协议</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">飞行链接2</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MODBUS</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TCP/UDP</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebSocket</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-external-controllers" class="anchor" aria-hidden="true" tabindex="-1" href="#external-controllers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外部控制器</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pixhawk 及其兼容产品 (Mavlink/UART)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">东方电机 (Modbus/RS-485)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ZLAC 8015（Modbus/RS-485）</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有更多即将到来。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-sensors" class="anchor" aria-hidden="true" tabindex="-1" href="#sensors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传感器</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">英特尔实感 D400 系列、L515、T265。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LeddarTech LeddarVu (UART/USB)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TOF传感</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">树莓派摄像头模块</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希芬·艾尔芬</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">佳能单反</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">索尼RX0系列</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利沃克斯</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有更多即将到来。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-actuators" class="anchor" aria-hidden="true" tabindex="-1" href="#actuators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行器</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">东方汽车</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DRV8825（RS485）</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有更多即将到来。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-displays" class="anchor" aria-hidden="true" tabindex="-1" href="#displays"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显示器</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mutrics ARiC AR 眼镜（即将推出）</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-showcase-of-solutions" class="anchor" aria-hidden="true" tabindex="-1" href="#showcase-of-solutions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案展示</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新中...</font></font></p>
+</article></div>
